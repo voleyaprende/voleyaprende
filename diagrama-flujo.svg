@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="760" viewBox="0 0 1100 760" role="img" aria-labelledby="title desc">
+<title id="title">Diagrama de flujo simple de Vóley Aprende</title>
+<desc id="desc">Inicio, menú principal, selección de sección, mostrar contenido y volver al menú. La evaluación contiene preguntas, corrección, suma de puntos y resultado.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L8 3L0 6" fill="none" stroke="#6b7f90" stroke-width="1.4"/></marker><style>.t{font:700 17px Arial,sans-serif;fill:#17324d}.s{font:12px Arial,sans-serif;fill:#536b7e}.line{stroke:#6b7f90;stroke-width:2;fill:none;marker-end:url(#arrow)}.node{fill:#fff;stroke:#bfd0dc;stroke-width:2}.start{fill:#e7f4ed;stroke:#78ad91}.action{fill:#eaf3f8;stroke:#8cb4c9}.decision{fill:#fff4e4;stroke:#e2b36d}</style></defs>
+<rect width="1100" height="760" rx="22" fill="#f5f7f9"/>
+<text x="550" y="48" text-anchor="middle" class="t" font-size="24">VÓLEY APRENDE · DIAGRAMA DE FLUJO</text>
+<text x="550" y="72" text-anchor="middle" class="s">Navegación principal del software educativo</text>
+<rect class="node start" x="440" y="100" width="220" height="52" rx="26"/><text x="550" y="132" text-anchor="middle" class="t">INICIO</text>
+<path class="line" d="M550 152V190"/>
+<rect class="node action" x="410" y="192" width="280" height="62" rx="12"/><text x="550" y="219" text-anchor="middle" class="t">MENÚ PRINCIPAL</text><text x="550" y="239" text-anchor="middle" class="s">VÓLEY APRENDE</text>
+<path class="line" d="M550 254V290"/>
+<polygon class="node decision" points="550,290 690,350 550,410 410,350"/><text x="550" y="346" text-anchor="middle" class="t">¿Qué sección</text><text x="550" y="367" text-anchor="middle" class="t">selecciona?</text>
+<path class="line" d="M410 350H155V440"/><path class="line" d="M460 389L365 440"/><path class="line" d="M640 389L735 440"/><path class="line" d="M690 350H945V440"/>
+<text x="270" y="338" class="s">Reglas</text><text x="390" y="414" class="s">Posiciones</text><text x="705" y="414" class="s">Técnicas</text><text x="810" y="338" class="s">Evaluación</text>
+<rect class="node action" x="55" y="442" width="200" height="64" rx="12"/><text x="155" y="468" text-anchor="middle" class="t">MOSTRAR</text><text x="155" y="488" text-anchor="middle" class="t">REGLAS</text>
+<rect class="node action" x="265" y="442" width="200" height="64" rx="12"/><text x="365" y="468" text-anchor="middle" class="t">MOSTRAR</text><text x="365" y="488" text-anchor="middle" class="t">POSICIONES</text>
+<rect class="node action" x="635" y="442" width="200" height="64" rx="12"/><text x="735" y="468" text-anchor="middle" class="t">MOSTRAR</text><text x="735" y="488" text-anchor="middle" class="t">TÉCNICAS</text>
+<rect class="node action" x="845" y="442" width="200" height="64" rx="12"/><text x="945" y="468" text-anchor="middle" class="t">REALIZAR</text><text x="945" y="488" text-anchor="middle" class="t">EVALUACIÓN</text>
+<path class="line" d="M155 506V555H550V590"/><path class="line" d="M365 506V555"/><path class="line" d="M735 506V555"/><path class="line" d="M945 506V555H550"/>
+<rect class="node action" x="410" y="592" width="280" height="62" rx="12"/><text x="550" y="618" text-anchor="middle" class="t">VOLVER AL MENÚ</text><text x="550" y="638" text-anchor="middle" class="s">o finalizar la evaluación y ver el puntaje</text>
+<path class="line" d="M410 623H315V222H410"/><text x="303" y="572" text-anchor="end" class="s">Repetir recorrido</text>
+<text x="550" y="710" text-anchor="middle" class="s">Evaluación: pregunta → respuesta → corrección → sumar 20 puntos si es correcta → siguiente pregunta → resultado sobre 100.</text>
+</svg>

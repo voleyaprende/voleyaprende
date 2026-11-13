@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10233f">
+  <meta name="description" content="Vóley Aprende: reglas, posiciones, técnicas y evaluación del vóley.">
+  <title>Vóley Aprende</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" data-go="inicio" aria-label="Vóley Aprende - inicio">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 48 48" role="img">
+          <circle cx="24" cy="24" r="19" fill="none" stroke="currentColor" stroke-width="2.7"/>
+          <path d="M11 10c8 5 13 13 13 33M35 10C27 15 22 23 22 43M6 28c11-3 24-2 36 5M8 17c11 7 22 8 34 4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="brand-copy"><strong>VÓLEY <em>APRENDE</em></strong><small>DEPORTE + TECNOLOGÍA</small></span>
+    </a>
+    <span class="topbar-note">RECURSO EDUCATIVO INTERACTIVO</span>
+  </header>
+
+  <main class="shell">
+    <section id="view-inicio" class="view active" aria-labelledby="home-title">
+      <div class="hero">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> APRENDÉ A TU RITMO</span>
+          <h1 id="home-title">El vóley,<br><span>más fácil de aprender.</span></h1>
+          <p>Conocé las reglas, descubrí las posiciones y aprendé las técnicas fundamentales. Después, poné a prueba lo que sabés.</p>
+          <div class="hero-actions">
+            <button class="button button-primary" data-go="reglas">Comenzar <span aria-hidden="true">→</span></button>
+            <span class="hero-caption">4 secciones · 1 recorrido de aprendizaje</span>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-ring ring-one"></div><div class="art-ring ring-two"></div>
+          <div class="court-lines"><span></span><span></span><span></span></div>
+          <div class="big-ball"><svg viewBox="0 0 180 180"><circle cx="90" cy="90" r="75" fill="#f7f8fa"/><path d="M39 34c33 18 52 49 52 125M142 34c-32 20-51 51-51 125M20 104c39-13 87-12 140 10M35 47c38 24 72 28 112 12" fill="none" stroke="#173858" stroke-width="7" stroke-linecap="round"/><path d="M90 15a75 75 0 0 1 66 39" fill="none" stroke="#f1a94b" stroke-width="7" stroke-linecap="round"/></svg></div>
+          <div class="art-label">VOLEY<br>APRENDE</div>
+        </div>
+      </div>
+
+      <div class="section-intro">
+        <div><span class="eyebrow muted">CONTENIDOS</span><h2>¿Qué querés aprender?</h2></div>
+        <p>Elegí un tema para empezar.</p>
+      </div>
+      <div class="menu-grid">
+        <button class="menu-card" data-go="reglas"><span class="card-icon icon-rules">01</span><span class="card-text"><strong>Reglas</strong><small>Puntuación, toques, saque y rotación.</small></span><span class="card-arrow">↗</span></button>
+        <button class="menu-card" data-go="posiciones"><span class="card-icon icon-positions">02</span><span class="card-text"><strong>Posiciones</strong><small>Las seis zonas y las funciones de los jugadores.</small></span><span class="card-arrow">↗</span></button>
+        <button class="menu-card" data-go="tecnicas"><span class="card-icon icon-techniques">03</span><span class="card-text"><strong>Técnicas</strong><small>Los seis fundamentos del vóley.</small></span><span class="card-arrow">↗</span></button>
+        <button class="menu-card" data-go="evaluacion"><span class="card-icon icon-quiz">04</span><span class="card-text"><strong>Evaluación</strong><small>Cinco preguntas para comprobar lo aprendido.</small></span><span class="card-arrow">↗</span></button>
+      </div>
+      <footer class="home-footer"><span>VÓLEY APRENDE</span><span>ESCUELA TÉCNICA N.º 5 · INFORMÁTICA EDUCATIVA · 2026</span></footer>
+    </section>
+
+    <section id="view-reglas" class="view" aria-labelledby="rules-title" hidden>
+      <div class="page-heading"><button class="back-button" data-go="inicio">← Menú principal</button><span class="eyebrow muted">SECCIÓN 01</span><h1 id="rules-title">Reglas del vóley</h1><p>Conocé las reglas básicas para entender cómo se suman puntos, cuántas veces se puede tocar la pelota y cómo se realiza el saque y la rotación.</p></div>
+      <div class="content-grid rules-grid">
+        <article class="info-card rule-card">
+          <span class="info-number">01 · CÓMO SE SUMAN PUNTOS</span>
+          <h2>Puntuación</h2>
+          <p>En el vóley se utiliza el sistema de punto por jugada: <strong>cada jugada terminada otorga un punto</strong> a uno de los dos equipos, sin importar quién realizó el saque.</p>
+          <ul class="rule-list">
+            <li>Se consigue un punto cuando la pelota toca el piso dentro del campo contrario.</li>
+            <li>También se consigue cuando el equipo rival comete una falta, por ejemplo, realiza cuatro toques o envía la pelota fuera.</li>
+            <li>Si el equipo que estaba sacando gana la jugada, suma un punto y vuelve a sacar.</li>
+            <li>Si gana la jugada el equipo que recibía, suma un punto, obtiene el saque y debe rotar.</li>
+          </ul>
+          <div class="rule-highlight"><strong>¿Cuándo se gana un set?</strong> Los primeros cuatro sets se juegan a 25 puntos. Hay que ganar con una diferencia mínima de 2 puntos. Si llegan 24-24, siguen jugando hasta que un equipo consiga esa diferencia.</div>
+          <div class="rule-highlight highlight-orange"><strong>¿Y el quinto set?</strong> Si el partido queda 2-2, el set decisivo se juega a 15 puntos, también con 2 puntos de diferencia. El partido lo gana el equipo que consigue 3 sets.</div>
+        </article>
+        <article class="info-card rule-card">
+          <span class="info-number">02 · CÓMO SE JUEGA LA PELOTA</span>
+          <h2>Toques</h2>
+          <p>Cada equipo puede realizar <strong>hasta tres toques</strong> para devolver la pelota al campo contrario. El contacto del bloqueo no se cuenta dentro de esos tres.</p>
+          <div class="touch-sequence" aria-label="Ejemplo habitual de los tres toques">
+            <div><b>1</b><span><strong>Recepción</strong><small>Controlar la pelota</small></span></div>
+            <i aria-hidden="true">→</i>
+            <div><b>2</b><span><strong>Armado</strong><small>Preparar el ataque</small></span></div>
+            <i aria-hidden="true">→</i>
+            <div><b>3</b><span><strong>Ataque</strong><small>Enviar al otro campo</small></span></div>
+          </div>
+          <p class="rule-caption">Este es un ejemplo común de cómo se organizan los tres toques; no es obligatorio usar siempre esas tres técnicas.</p>
+          <ul class="rule-list">
+            <li>Un mismo jugador no puede tocar la pelota dos veces seguidas, salvo excepciones del reglamento, como después de realizar un bloqueo.</li>
+            <li>La pelota puede tocar cualquier parte del cuerpo.</li>
+            <li>No se puede retener, agarrar ni acompañar la pelota: el contacto debe ser un golpe y no un lanzamiento.</li>
+            <li>Si el equipo realiza cuatro toques antes de devolverla, comete una falta.</li>
+          </ul>
+          <div class="rule-highlight"><strong>Recordá:</strong> después de un bloqueo, el equipo todavía dispone de tres toques para devolver la pelota.</div>
+        </article>
+        <article class="info-card rule-card">
+          <span class="info-number">03 · PONER LA PELOTA EN JUEGO</span>
+          <h2>Saque</h2>
+          <p>El saque inicia cada jugada. Lo realiza el jugador zaguero derecho desde la zona de saque, ubicada detrás de la línea de fondo.</p>
+          <ul class="rule-list">
+            <li>El árbitro debe autorizar el saque con su silbato.</li>
+            <li>Después del silbato, el jugador tiene hasta 8 segundos para golpear la pelota.</li>
+            <li>Al golpearla o saltar para ejecutar un saque en salto, no puede pisar la línea de fondo ni el terreno fuera de la zona de saque.</li>
+            <li>Después del golpe, sí puede entrar al campo o caer dentro de él.</li>
+          </ul>
+        </article>
+        <article class="info-card rule-card">
+          <span class="info-number">04 · CAMBIO DE POSICIONES</span>
+          <h2>Rotación</h2>
+          <p>Cuando el equipo que estaba recibiendo gana la jugada, obtiene el derecho a sacar y sus seis jugadores deben rotar una posición.</p>
+          <ul class="rule-list">
+            <li>La rotación se realiza en sentido horario.</li>
+            <li>El jugador de la posición 2 pasa a la posición 1 y queda a cargo del saque.</li>
+            <li>El jugador de la posición 1 pasa a la 6; los demás avanzan una posición siguiendo el mismo sentido.</li>
+            <li>El orden de rotación debe respetarse durante todo el set.</li>
+          </ul>
+          <div class="rule-highlight"><strong>Importante:</strong> el equipo no rota cada vez que suma un punto. Rota cuando recupera el derecho a sacar.</div>
+        </article>
+      </div>
+      <div class="rules-source"><span>Reglas resumidas para el aprendizaje. Fuente: Reglamento Oficial de Voleibol FIVB 2025–2028.</span><a href="https://www.fivb.com/volleyball/the-game/official-volleyball-rules/" target="_blank" rel="noopener noreferrer">Consultar reglamento oficial ↗</a></div>
+      <div class="page-bottom"><span>REGLAS BÁSICAS DEL VÓLEY</span><button class="button button-dark" data-go="inicio">Volver al menú <span>→</span></button></div>
+    </section>
+
+    <section id="view-posiciones" class="view" aria-labelledby="positions-title" hidden>
+      <div class="page-heading"><button class="back-button" data-go="inicio">← Menú principal</button><span class="eyebrow muted">SECCIÓN 02</span><h1 id="positions-title">Posiciones en la cancha</h1><p>La cancha se divide en seis zonas de rotación. El orden de rotación se realiza en sentido horario cuando el equipo recupera el saque.</p></div>
+      <div class="positions-layout">
+        <div class="court-panel">
+          <div class="court-label"><span>RED</span><span>CAMPO</span></div>
+          <div class="court">
+            <div class="court-net"></div>
+            <div class="zone zone-4"><b>4</b><small>DELANTERO<br>IZQUIERDO</small></div>
+            <div class="zone zone-3"><b>3</b><small>DELANTERO<br>CENTRO</small></div>
+            <div class="zone zone-2"><b>2</b><small>DELANTERO<br>DERECHO</small></div>
+            <div class="zone zone-5"><b>5</b><small>ZAGUERO<br>IZQUIERDO</small></div>
+            <div class="zone zone-6"><b>6</b><small>ZAGUERO<br>CENTRO</small></div>
+            <div class="zone zone-1"><b>1</b><small>ZAGUERO<br>DERECHO</small></div>
+          </div>
+          <div class="rotation-note"><span>↻</span> Rotación en sentido horario</div>
+        </div>
+        <div class="roles-panel">
+          <span class="eyebrow muted">FUNCIONES ESPECIALIZADAS</span>
+          <h2>Roles de los jugadores</h2>
+          <p>Además de las zonas de rotación, el material identifica estas funciones especializadas:</p>
+          <div class="role-list"><span>Armador</span><span>Central</span><span>Punta</span><span>Opuesto</span><span>Líbero</span></div>
+          <div class="small-callout">La zona indica la ubicación en la rotación; el rol especializado describe una función dentro del equipo.</div>
+        </div>
+      </div>
+      <div class="page-bottom"><span>SEIS ZONAS DE ROTACIÓN</span><button class="button button-dark" data-go="inicio">Volver al menú <span>→</span></button></div>
+    </section>
+
+    <section id="view-tecnicas" class="view" aria-labelledby="techniques-title" hidden>
+      <div class="page-heading"><button class="back-button" data-go="inicio">← Menú principal</button><span class="eyebrow muted">SECCIÓN 03</span><h1 id="techniques-title">Técnicas fundamentales</h1><p>Seleccioná una técnica para conocer su función dentro del juego.</p></div>
+      <div class="technique-layout">
+        <div class="technique-list" role="group" aria-label="Elegir técnica">
+          <button class="technique-button selected" data-technique="0"><span>01</span> Saque <b>→</b></button>
+          <button class="technique-button" data-technique="1"><span>02</span> Recepción <b>→</b></button>
+          <button class="technique-button" data-technique="2"><span>03</span> Armado <b>→</b></button>
+          <button class="technique-button" data-technique="3"><span>04</span> Remate <b>→</b></button>
+          <button class="technique-button" data-technique="4"><span>05</span> Bloqueo <b>→</b></button>
+          <button class="technique-button" data-technique="5"><span>06</span> Defensa <b>→</b></button>
+        </div>
+        <article class="technique-detail" aria-live="polite">
+          <div class="detail-kicker"><span id="tech-number">TÉCNICA 01</span><span class="detail-dot"></span><span>FUNDAMENTO DEL VÓLEY</span></div>
+          <div class="detail-illustration" id="tech-art" aria-hidden="true"><span class="art-ball">◉</span><span class="motion-line"></span></div>
+          <h2 id="tech-name">Saque</h2>
+          <p id="tech-description">Pone la pelota en juego desde detrás de la línea de fondo.</p>
+        </article>
+      </div>
+      <div class="page-bottom"><span>6 TÉCNICAS INCLUIDAS</span><button class="button button-dark" data-go="inicio">Volver al menú <span>→</span></button></div>
+    </section>
+
+    <section id="view-evaluacion" class="view" aria-labelledby="quiz-title" hidden>
+      <div class="page-heading"><button class="back-button" data-go="inicio">← Menú principal</button><span class="eyebrow muted">SECCIÓN 04</span><h1 id="quiz-title">Evaluación</h1><p>Respondé las cinco preguntas. Cada respuesta correcta suma 20 puntos.</p></div>
+      <div class="quiz-card" id="quiz-card">
+        <div class="quiz-top"><span id="question-counter">PREGUNTA 1 DE 5</span><span id="question-points">20 PUNTOS</span></div>
+        <div class="progress-track"><span id="quiz-progress"></span></div>
+        <h2 id="question-text">¿Cuántos jugadores de cada equipo están en la cancha?</h2>
+        <div id="answer-list" class="answer-list"></div>
+        <div id="feedback" class="feedback" aria-live="polite" hidden></div>
+        <div class="quiz-actions"><span id="score-live">Puntaje: 0</span><button class="button button-primary" id="next-question" disabled>Comprobar respuesta</button></div>
+      </div>
+      <div class="quiz-result" id="quiz-result" hidden>
+        <div class="result-symbol">✓</div><span class="eyebrow muted">EVALUACIÓN FINALIZADA</span><h2>¡Terminaste!</h2><div class="result-score"><strong id="final-score">0</strong><span>/ 100</span></div><p id="result-message">Este es tu resultado.</p><button class="button button-primary" id="retry-quiz">Volver a intentar ↻</button><button class="back-button result-back" data-go="inicio">Volver al menú principal</button>
+      </div>
+      <div class="page-bottom"><span>5 PREGUNTAS · 100 PUNTOS</span><span>RESPUESTA CON DEVOLUCIÓN INMEDIATA</span></div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
